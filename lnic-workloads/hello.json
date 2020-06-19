@@ -1,0 +1,9 @@
+{
+  "name" : "hello",
+  "base" : "bare",
+  "host-init" : "build.sh",
+  "bin" : "hello.riscv",
+  "testing" : {
+    "refDir" : "refOutput"
+  }
+}
