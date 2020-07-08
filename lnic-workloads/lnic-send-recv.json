@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-send-recv",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-send-recv.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
