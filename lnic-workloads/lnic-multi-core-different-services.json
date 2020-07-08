@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-multi-core-different-services",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-multi-core-different-services.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
