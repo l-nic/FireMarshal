@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-incast",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-incast.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
