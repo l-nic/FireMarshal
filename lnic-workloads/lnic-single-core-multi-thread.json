@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-single-core-multi-thread",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-single-core-multi-thread.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
