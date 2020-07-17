@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-incast-multi-service",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-incast-multi-service.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
