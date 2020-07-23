@@ -1,0 +1,6 @@
+{
+    "name" : "lnic-ping-latency",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-ping-latency.riscv"
+}
