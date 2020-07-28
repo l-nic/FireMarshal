@@ -1,0 +1,6 @@
+{
+    "name" : "lnic-incast-nolock",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-incast-nolock.riscv"
+}
