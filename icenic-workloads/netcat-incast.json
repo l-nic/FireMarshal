@@ -1,0 +1,40 @@
+{
+  "name" : "netcat-incast",
+  "base" : "br-base.json",
+  "overlay": "overlay",
+  "jobs" : [
+    {
+      "name" : "server",
+      "outputs" : [ "/root/client-1.txt", "/root/client-2.txt", "/root/client-3.txt", "/root/client-4.txt", "/root/client-5.txt", "/root/client-6.txt", "/root/client-7.txt" ],
+      "run": "run_nc_servers.sh" 
+    },
+    {
+      "name" : "client-1",
+      "run": "run_nc_client.sh 1234"
+    },
+    {
+      "name" : "client-2",
+      "run": "run_nc_client.sh 1235"
+    },
+    {
+      "name" : "client-3",
+      "run": "run_nc_client.sh 1236"
+    },
+    {
+      "name" : "client-4",
+      "run": "run_nc_client.sh 1237"
+    },
+    {
+      "name" : "client-5",
+      "run": "run_nc_client.sh 1238"
+    },
+    {
+      "name" : "client-6",
+      "run": "run_nc_client.sh 1239"
+    },
+    {
+      "name" : "client-7",
+      "run": "run_nc_client.sh 1240"
+    }
+  ]
+}
