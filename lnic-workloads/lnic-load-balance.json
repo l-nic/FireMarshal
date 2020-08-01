@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-load-balance",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-load-balance.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
