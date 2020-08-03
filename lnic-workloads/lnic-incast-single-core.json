@@ -1,0 +1,6 @@
+{
+    "name" : "lnic-incast-single-core",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-incast-single-core.riscv"
+}
