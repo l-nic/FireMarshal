@@ -1,0 +1,6 @@
+{
+    "name" : "lnic-evaluation",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-evaluation.riscv"
+}
