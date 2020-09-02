@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-raft",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-raft.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
