@@ -1,2 +1,2 @@
 #!/bin/bash
-ln -s /home/centos/raft_server_riscv lnic-raft.riscv
+ln -s /home/centos/chipyard/software/raft/raft_server_riscv/build/raft_server_riscv lnic-raft.riscv
