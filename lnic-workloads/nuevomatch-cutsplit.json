@@ -1,0 +1,6 @@
+{
+    "name" : "nuevomatch-cutsplit",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "nuevomatch-cutsplit.riscv"
+}
