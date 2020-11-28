@@ -1,0 +1,9 @@
+{
+    "name" : "icenic-basic",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "icenic-basic.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
