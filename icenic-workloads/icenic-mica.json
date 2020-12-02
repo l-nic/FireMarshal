@@ -1,0 +1,9 @@
+{
+    "name" : "icenic-mica",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "icenic-mica.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
