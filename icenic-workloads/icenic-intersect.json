@@ -1,0 +1,9 @@
+{
+    "name" : "icenic-intersect",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "icenic-intersect.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
