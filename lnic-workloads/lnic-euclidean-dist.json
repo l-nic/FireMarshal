@@ -1,0 +1,9 @@
+{
+    "name" : "lnic-euclidean-dist",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-euclidean-dist.riscv",
+    "testing" : {
+        "refDir" : "refOutput"
+      }
+}
