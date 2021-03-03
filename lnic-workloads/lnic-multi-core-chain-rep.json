@@ -1,0 +1,6 @@
+{
+    "name" : "lnic-multi-core-chain-rep",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-multi-core-chain-rep.riscv"
+}

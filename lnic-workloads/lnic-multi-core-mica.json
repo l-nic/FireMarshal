@@ -1,0 +1,6 @@
+{
+    "name" : "lnic-multi-core-mica",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-multi-core-mica.riscv"
+}
