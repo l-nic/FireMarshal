@@ -1,0 +1,6 @@
+{
+    "name" : "lnic-rdma-ops",
+    "base" : "bare",
+    "host-init" : "build.sh",
+    "bin" : "lnic-rdma-ops.riscv"
+}
